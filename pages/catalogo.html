@@ -13,45 +13,93 @@
     <!-- fuente de titulo -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Gowun+Dodum&display=swap" rel="stylesheet">
-    </head>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Gowun+Dodum&display=swap" rel="stylesheet"> 
+    <!-- boot -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
         <nav id="navegador">
-            <ul>
+            <ul class="ul-flex">
                 <li> <a href="../index.html"> <img src="../assets/img/attico.png" alt="attico-second-hand" class="logo"> </a></li>
                 <li> <a href="../index.html"  class="encabezado">Inicio</a></li>
                 <li> <a href="./catalogo.html" class="encabezado">Catalogo</a></li>
                 <li> <a href="./nostros.html"  class="encabezado">Nosotros</a></li>
                 <li> <a href="./beneficio.html" class="encabezado">Beneficios</a></li>
+                <li> <a href="./fast-fashio.html" class="encabezado">Fast Fashion</a></li>
                 <li> <a href="https://instagram.com/__attico__?igshid=YmMyMTA2M2Y=" target="_blank"> <img src="../assets/img/instagram.png" alt="instagram" class="redes"></a></li>
                 <li> <a href="https://es-la.facebook.com/" target="_blank"> <img src="../assets/img/facebook.png" alt="facebook" class="redes"></a></li>
             </ul>
         </nav>
     </header>
 
+
+
+
+
+
+    
 <main class="main-catalogo">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../assets/img/jeanscarrusel.png" class="d-block w-100" alt="jeans">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>jeans - pantalones - shorts</h5>
+            <p>Descubri mas!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/img/remeracarrusel.jpg" class="d-block w-100" alt="remeras">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>remeras - camisas - tops</h5>
+            <p>Descubri mas!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/img/buzocarrusel.jpg" class="d-block w-100" alt="buzos">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>buzos - sweaters - camperas</h5>
+            <p>Descubri mas!</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+
     <section>
-    <ul>
-        <li class="subtitulo-2"><img src="../assets/img/jeans.jpg" alt="jeans" class="catalogo-img"> jeans-pantalones-shorts </li>
-        <li class="subtitulo-2"><img src="../assets/img/rename.jpg" alt="remeras" class="catalogo-img"> remeras-musculosas-camisas </li>
-        <li class="subtitulo-2"><img src="../assets/img/buzos.jpg" alt="buzos" class="catalogo-img"> buzos-sweaters-camperas </li>
-    </ul> 
-    <div>
-        <button class="shop-now">shop-now</button> 
+    <div class="shop-now">
+      <button type="button" class="text-shop-now">SHOP NOW</button>
     </div>
     </section>
-
 </main>
 
-<footer class="logo-pie">
-    <h2 class="subtitulo-2">Ayuda</h2>
-    <h2 class="subtitulo-2">Envios</h2>
-    <h2 class="subtitulo-2">Defensa del consmidor</h2>
-    <img src="../assets/img/attico.png" alt="attico-second-hand" class="logo">
+<footer>
+    <div class="palabras-pie">
+        <h2 class="info-pie">Ayuda</h2>
+        <h2 class="info-pie">Envios</h2>
+        <h2 class="info-pie">Defensa del consmidor</h2>
+    </div>
+    <div class="attico-pie">
+        <img src="../assets/img/attico.png" alt="attico-second-hand" class="logo">
+    </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> 
