@@ -1,0 +1,104 @@
+@media (max-width:768px){
+    .desaparecer{
+        display: none;
+    }
+    .redes-dropdown{
+        display: none;
+    }
+    .main-index{
+        background-image: url(../assets/img/fondotablet.jpg);
+        width: 100%;
+        height: 40rem;
+    }
+    /* catalogo */
+    .text-shop-now{
+        font-size: 2rem;
+    }
+    .boton-edit{
+        width: 19rem;
+        height: 8rem;
+    }
+    /* beneficio */
+    .main-beneficio{
+        background-color: $color;
+        width: 100%;
+        height: 35rem;
+        section{
+            h1{
+                font-size: 3rem;
+            }
+            p{
+                margin-top: 0.5rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                font-size: 1rem;
+                text-indent: 5px;
+            }
+        }
+    }
+    .lee{
+        font-family: 'Gowun Dodum', sans-serif;
+        font-size: 1.2rem;
+        color: $color;
+        text-decoration: none;
+        text-align: center;
+    }
+    .cuadrado-fast{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem;
+        width: 30rem;
+        height: 5rem;
+        background-color: $color-dos ; 
+    }
+    /* nosotros */
+    .main-nosotros{
+        background-image: url(../);
+        width: 100%;
+        height: 20rem;
+        .titulo-quien{
+            width: 100%;
+            height: 5rem;
+            font-size: 3rem;
+            margin-top: 25px;
+        }
+        div{
+            p{
+                margin-top: 0.5rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                font-size: 1rem;
+                text-indent: 5px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width:425px){
+    nav{
+        display: none;
+    }
+    .desaparecer{
+        display: block;
+    }
+    .main-index{
+        background-image: url(../assets/img/fondomedio.jpg);
+        width: 100%;
+        height: 50rem;
+    }
+    .titulo{
+        font-size: 4.5rem;
+    }
+    .subtitulo{
+        font-size: 2rem;
+    }
+    .text-shop-now{
+        font-size: 0.5;
+    }
+    .carrusel-media{
+        display: none;
+    }
+}

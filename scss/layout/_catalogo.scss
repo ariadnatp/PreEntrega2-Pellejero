@@ -1,0 +1,29 @@
+
+.main-catalogo{
+    background-color: #456C83;
+}
+.shop-now{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+ .text-shop-now{
+    text-decoration: none;
+    color: #456C83;
+    font-size: 3rem;
+}
+.boton-edit{
+    width: 25rem;
+    height: 10rem;
+    color: #F4D7D3;
+    border-color: #7DB9B6;
+    box-shadow: #7DB9B6;
+    border-radius: 2rem;
+    border-width: 0.3rem;
+}
+.carrusel-mobil{
+    display: none;
+}

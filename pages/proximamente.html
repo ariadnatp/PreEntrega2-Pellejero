@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proximamente - ATTICO</title>
     <link rel="shortcut icon" href="./assets/img/planta 2.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
@@ -18,9 +18,9 @@
 <body>
     <header>
         <nav>
-            <ul class="ul-flex">
-                <li> <a href="./index.html"><img src="../assets/img/attico.png" alt="attico-second-hand" class="logo"> </a></li>
-                <li> <a href="../index.html"  class="encabezado">Inicio</a></li>
+            <ul>
+                <li> <a href="../index.html"><img src="../assets/img/attico.png" alt="attico-second-hand" class="logo"> </a></li>
+                <li> <a href="../index.html" class="encabezado">Inicio</a></li>
                 <li> <a href="./catalogo.html" class="encabezado">Catalogo</a></li>
                 <li> <a href="./nostros.html"  class="encabezado">Nosotros</a></li>
                 <li> <a href="./beneficio.html" class="encabezado">Beneficios</a></li>
@@ -29,7 +29,34 @@
                 <li> <a href="https://es-la.facebook.com/" target="_blank"> <img src="../assets/img/facebook.png" alt="facebook" class="redes"></a></li>
             </ul>
         </nav>
-    <main class="flex-pp">
+        <!-- nav en mobil -->
+        <section class="desaparecer">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand">Catalogo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Indice
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark d-flex flex-column mb-3">
+                      <li><a class="dropdown-item"  href="../index.html">Inicio</a></li>
+                      <li><a class="dropdown-item"  href="./nostros.html">Nosotros</a></li>
+                      <li><a class="dropdown-item"  href="./beneficio.html">Beneficios</a></li>
+                      <li><a class="dropdown-item"  href="./fast-fashio.html">Fast Fashion</a></li>
+                      <li><a class="dropdown-item"  href="https://linktr.ee/aritriny" target="_blank">Redes</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </section>
+    <main class="main-flex-pp">
         <div class="prox-flex">
            <h1 class="prox">PROXIMAMENTE!</h1>
         </div>

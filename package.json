@@ -1,0 +1,13 @@
+{
+  "name": "proyecto-codigo-tres",
+  "version": "1.0.0",
+  "description": "Attico - Proyecto Coderhouse por Ariadna Pellejero\r Attico es una tienda second hand que tiene como objetivo revender ropa (que cumpla los estándares de calidad propuestos por la misma tienda) que haya sido de otra persona previamente. \r Este proyecto surge de la búsqueda de reducir el impacto ambiental de la moda, apoyar la economía local, encontrar piezas únicas a precios asequibles y promover el comercio justo.\r Mediante el desarrollo de una página web propia, Attico busca:  llegar a un público más amplio, estar disponible las 24 horas del día y proporcionar información detallada a los clientes para aumentar la fidelidad de estos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include.path scss ./scss/style.scss ./css/style.css",
+    "watch-css":"nodemon -e scss -x\"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC"
+}

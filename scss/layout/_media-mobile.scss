@@ -1,0 +1,95 @@
+@media (max-width:320px){
+    .main-index{
+        background-image: url(../assets/img/fondomobile.jpg);
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+        height: 50rem;
+    }
+    .titulo{
+        font-size: 4rem;
+    }
+    .subtitulo{
+        font-size: 1.5rem;
+    }
+   /* catalogo */
+   .carrusel-mobil{
+        display: block;
+    }
+    .carrusel-desktop{
+        display: none;
+    }
+    .text-shop-now{
+        font-size: 1rem;
+    }
+    .boton-edit{
+        width: 9rem;
+        height: 4rem;
+        border-radius: 1rem;
+    }
+    /* nosotros */
+    .main-nosotros{
+        background-color: $color;
+        background-image: url(../asset/amigas-mobile.jpg);
+        padding: 0% 5% 5% 5%;
+        width: 100%;
+        height: 68rem;
+        background-position: center;
+        background-position-y: 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        .titulo-quien{
+            width: 100%;
+            height: 5rem;
+            color: white;
+            font-family: 'Gowun Dodum', sans-serif;
+            font-size: 1.6rem;
+            background-color: #e2e0e0 ;
+            margin-top: 25px;
+        }
+        div{
+            p{
+                margin-top: 0.5rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                font-size: 1rem;
+                text-indent: 5px;
+            }
+        }
+    }
+    /* beneficio */
+    .main-beneficio{
+        section{
+            h1{
+                font-size: 3rem;
+            }
+            p{
+                margin-top: 0.5rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                font-size: 1rem;
+                text-indent: 5px;
+            }
+    
+        }
+    }
+    .lee{
+        font-family: 'Gowun Dodum', sans-serif;
+        font-size: 1.2rem;
+        color: $color;
+        text-align: center;
+        text-decoration: none;
+    }
+    .cuadrado-fast{
+        margin-top: 2rem;
+        width: 17rem;
+        height: 5.2rem;
+        background-color: $color-dos ; 
+    }
+    .img-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+}

@@ -1,0 +1,47 @@
+/* pie */
+footer{
+    width: 100%;
+    height: 8rem;
+    background-color: #3B5D71;
+}
+.grid-pie{
+    background-color: #3B5D71;
+    display: grid;
+    grid-template: repeat(3,1fr)/repeat(2,1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+}
+.itemayuda{
+    grid-area: 1 / 1;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.itemenvios{
+    grid-area: 2 / 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.itemdefensa{
+    grid-area: 3 / 1;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.itemlogo{
+    grid-area: 3 / 2;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.info-pie{
+    color: $color-dos;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 1rem;
+    font-style: none;
+    font-weight: 400;
+}

@@ -1,0 +1,39 @@
+
+nav{
+    background-color: #456C83;
+    width: 100%;
+    display: inline-block;
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        li{
+            display: inline-block;
+            gap: 20px;
+        }
+    }
+}
+.logo{
+    height: 3rem;
+    width: 9rem;
+}
+.encabezado{
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+.redes{
+    display: inline;
+    height: 3rem;
+    width: 2.5rem;
+}
+/* para responsive */
+.redes-dropdown{
+    display: inline;
+}
+.desaparecer{
+    background-color: #456C83;
+    display: block;
+}

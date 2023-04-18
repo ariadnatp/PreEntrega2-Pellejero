@@ -1,0 +1,40 @@
+/* index */
+.main-index{
+    background-color: $color;
+    background-image: url(../assets/img/fondoo.jpg);
+    padding: 0% 5% 5% 5%;
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-position-y: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    section{
+        div{
+            width: 100%;
+            height: 50rem;
+            line-height: 70px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; 
+            h1{
+                color: #7DB9B6;
+                font-family: 'Gloock', serif;
+                font-size: 5rem;
+            }
+            h2{
+                color: $color-dos;
+                font-family: 'Gowun Dodum', sans-serif;
+                font-size: 2rem;
+            }
+        }
+    }
+    .cuadrado{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                background-color: #456C83; 
+    }
+}

@@ -1,0 +1,17 @@
+$color: #456C83;
+$color-dos: #F4D7D3;
+$font:'Gloock', serif;
+$font-dos: 'Gowun Dodum', sans-serif;
+@import"./base/reset";
+@import"./base/typo";
+@import"./layout/header";
+@import"./layout/footer";
+@import"./layout/index";
+@import"./layout/catalogo";
+@import"./layout/nosotros";
+@import"./layout/beneficio";
+@import"./layout/fastfashion";
+@import"./layout/proximamente";
+@import"./layout/media-desktop";
+@import"./layout/media-tablet";
+@import"./layout/media-mobile";
