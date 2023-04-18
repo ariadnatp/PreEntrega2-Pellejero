@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>attico</title>
+    <title>Beneficio - ATTICO</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../assets/img/planta 2.ico" type="image/x-icon">
     <!-- fuentes en general -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,31 +33,56 @@
                 <li> <a href="https://es-la.facebook.com/" target="_blank"> <img src="../assets/img/facebook.png" alt="facebook" class="redes"></a></li>
             </ul>
         </nav>
+
+        <!-- nav en mobil -->
+    <section class="desaparecer">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Attico</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Indice
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="./catalogo.html">Catalogo</a></li>
+                    <li><a class="dropdown-item" href="./nostros.html">Nosotros</a></li>
+                    <li><a class="dropdown-item" href="./beneficio.html">Beneficios</a></li>
+                    <li><a class="dropdown-item" href="./fast-fashio.html">Fast Fashion</a></li>
+                    <li><a class="dropdown-item" href="https://linktr.ee/aritriny" target="_blank">Redes</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
     </header>
 
 <!-- main -->
 <main class="main-beneficio">
-<section>
-    <h1 class="fast-titulo">BENEFICIO</h1>
-    <p class="parrafo-fast">Las tiendas de segunda mano son una buena opción para aquellos que buscan ahorrar dinero en la compra 
-        de productos usados, así como para aquellos que buscan productos difíciles de encontrar en tiendas convencionales. Además, comprar en tiendas second hand también puede ser beneficioso para el medio ambiente, ya que ayuda a reducir la cantidad de productos que se desechan y se envían a los vertederos.</p>
-</section>
-<section class="cuadrado-fast">
-<a href="../pages/fast-fashio.html" class="lee">Conoces la problematica del FAST FASHION?<br>leela aca!</a>
-</section>
+    <section>
+        <h1 class="fast-titulo">BENEFICIO</h1>
+        <p class="parrafo-fast"> Las tiendas de segunda mano son una buena opción para aquellos que buscan ahorrar dinero en la compra de productos usados, así como para aquellos que buscan productos difíciles de encontrar en tiendas convencionales. Además, comprar en tiendas second hand también puede ser beneficioso para el medio ambiente, ya que ayuda a reducir la cantidad de productos que se desechan y se envían a los vertederos.<br>La industria textil es una de las industrias más contaminantes del medio ambiente debido a su alta demanda de recursos naturales y al uso intensivo de productos químicos en los procesos de fabricación. La producción de fibras textiles requiere grandes cantidades de agua, energía y productos químicos, y la mayoría de los textiles se fabrican a partir de fibras sintéticas derivadas del petróleo, lo que tiene un impacto significativo en las emisiones de gases de efecto invernadero.</p>
+    <div class="img-flex">
+        <img src="../assets/img/datos.jpg" class="img-datos" alt="datos sobre la contaminacion de la moda">
+    </div>
+    <div class="cuadrado-fast">
+        <a href="../pages/fast-fashio.html" class="lee">Conoces la problematica del FAST FASHION?<br><b>leela aca!</b></a>
+    </div>
+    </section>
 </main>
 
-
 <!-- pie de pagina -->
-<footer>
-    <div class="logo-pie">
-        <h2 class="subtitulo-2">Ayuda</h2>
-        <h2 class="subtitulo-2">Envios</h2>
-        <h2 class="subtitulo-2">Defensa del consmidor</h2>
-    </div>
-    <div class="attico-pie">
-        <img src="../assets/img/attico.png" alt="attico-second-hand" class="logo">
-    </div>
+<footer class="grid-pie">
+  <div class="itemayuda"> <h2 class="info-pie">Ayuda</h2> </div>
+  <div class="itemenvios"> <h2 class="info-pie">Envios</h2> </div>
+  <div class="itemdefensa"> <h2 class="info-pie" >Defensa del consumidor</h2> </div>
+  <div class="itemlogo"> <img src="../assets/img/attico.png" alt="attico-second-hand" class="logo"> </div>
 </footer>
 </body>
 </html>
