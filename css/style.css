@@ -161,6 +161,10 @@ footer {
   padding-bottom: 1rem;
 }
 
+button:hover {
+  background-color: #9debe7;
+}
+
 .text-shop-now {
   text-decoration: none;
   color: #456C83;
@@ -327,13 +331,13 @@ footer {
   height: 100px;
 }
 .main-fast article div ul {
+  text-decoration: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
-.texto-articulo {
+.main-fast article div ul li {
   font-family: "Gowun Dodum", sans-serif;
   color: #456C83;
   text-decoration: line;
@@ -436,9 +440,9 @@ footer {
   }
   /* nosotros */
   .main-nosotros {
-    background-image: url(../);
+    background-image: url(../assets/img/amigas-mobile.json);
     width: 100%;
-    height: 20rem;
+    height: 40rem;
   }
   .main-nosotros .titulo-quien {
     width: 100%;
@@ -447,12 +451,33 @@ footer {
     margin-top: 25px;
   }
   .main-nosotros div p {
-    margin-top: 0.5rem;
+    margin-top: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
     font-size: 1rem;
     text-indent: 5px;
     text-align: center;
+  }
+  .main-fast h1 {
+    font-size: 5rem;
+  }
+  .main-fast p {
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    text-indent: 20px;
+  }
+  .main-fast article div {
+    margin-top: 2rem;
+    width: 650px;
+    height: 100px;
+  }
+  .main-fast article div ul li {
+    font-size: 1.2rem;
+  }
+  .main-flex-pp div h1 {
+    font-size: 4rem;
   }
 }
 @media (max-width: 425px) {
@@ -566,6 +591,35 @@ footer {
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
+  }
+  .main-fast {
+    background-color: #456C83;
+    height: 60rem;
+  }
+  .main-fast h1 {
+    font-size: 2.5rem;
+  }
+  .main-fast p {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    text-indent: 5px;
+  }
+  .main-fast article div {
+    margin-top: 2rem;
+    width: 300px;
+    height: 100px;
+  }
+  .main-fast article div ul li {
+    font-size: 1rem;
+  }
+  .main-fast .texto-articulo {
+    height: 20px;
+    width: 20px;
+  }
+  .main-flex-pp div h1 {
+    font-size: 2rem;
   }
 }
 

@@ -42,21 +42,22 @@
             width: 800px;
             height: 100px;
             ul{
+                text-decoration: none;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+                li{
+
+                    font-family: 'Gowun Dodum', sans-serif;
+                    color: $color;
+                    text-decoration: line;
+                    color: $color;
+                    font-size: 1.5rem;
+                    position: center;
+                    
+                }
             }
         }
     }
 }
-
-.texto-articulo{
-    font-family: 'Gowun Dodum', sans-serif;
-    color: $color;
-    text-decoration: line;
-    color: $color;
-    font-size: 1.5rem;
-    position: center;
-}
-
